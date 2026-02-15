@@ -9,7 +9,7 @@
 
 ## ✨ Overview
 
-Campus Faculty Locator Pro is a comprehensive web application designed to help students and staff quickly locate faculty members across campus. The system provides real-time location tracking based on schedules, interactive campus maps, and detailed faculty information.
+Campus Faculty Locator Pro is a comprehensive web application designed to help students quickly locate faculty members across campus. The system provides real-time location tracking based on schedules, interactive campus maps, and detailed faculty information.
 
 ## 📸 Screenshots
 
@@ -33,16 +33,16 @@ Campus Faculty Locator Pro is a comprehensive web application designed to help s
 
 ### Core Functionality
 - 🔍 **Smart Faculty Search** - Search by name or faculty ID
-- 📍 **Real-time Location Tracking** - Know where faculty are right now
+- 📍 **Real-time Location Tracking** - Know where faculty are right now based on their schedule
 - 📅 **Weekly Schedule Management** - View complete weekly timetables
 - 🗺️ **Interactive Campus Map** - Visual campus block navigation
-- 🎯 **Current Location Prediction** - AI-powered location estimation based on schedule
+- 🎯 **Current Location Prediction** - Schedule-based location estimation
 - 🏫 **Holiday Detection** - Automatic holiday notifications
 
 ### Faculty Management
 - ➕ **Add New Faculty** - Easy faculty member registration
-- 🤖 **Auto-Generate Schedules** - AI-powered schedule generation
-- ✏️ **Custom Schedule Builder** - Manual schedule creation with drag-and-drop
+- 🤖 **Auto-Generate Schedules** - Automatically create schedules based on common academic patterns
+- ✏️ **Custom Schedule Builder** - Manual schedule creation with detailed time slots
 - 📊 **Department & Building Organization** - Structured data management
 
 ### User Experience
@@ -209,31 +209,8 @@ colors: {
 
 Modify building data in `src/components/CampusBlockMap.tsx` or `src/utils/facultyData.ts`.
 
-## 🌐 Deployment
 
-### Deploy to Vercel (Recommended)
 
-```bash
-# Install Vercel CLI
-npm i -g vercel
-
-# Deploy
-vercel
-```
-
-Or use the Vercel dashboard:
-1. Import your GitHub repository
-2. Add environment variables
-3. Click Deploy
-
-### Deploy to Netlify
-
-```bash
-# Build the project
-npm run build
-
-# Upload the 'dist' folder to Netlify
-```
 
 ## 🔐 Environment Variables
 
@@ -244,26 +221,17 @@ npm run build
 
 *Required only if using Supabase features
 
-## 🤝 Contributing
 
-Contributions are welcome! Please follow these steps:
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
 
 ## 📝 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-## 👨‍💻 Author
+## 👨‍💻 Authors
 
-**Your Name**
-- GitHub: [@yourusername](https://github.com/yourusername)
-- LinkedIn: [Your Name](https://linkedin.com/in/yourprofile)
-- Email: your.email@example.com
+
+- [Y.Shanthan](https://github.com/shanthan5589)
+- [K.Mani Chandra](https://github.com/mani-chandra-k)
 
 ## 🙏 Acknowledgments
 
@@ -272,33 +240,10 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - Icons from [Lucide](https://lucide.dev)
 - Styled with [Tailwind CSS](https://tailwindcss.com)
 
-## 📊 Project Stats
 
-- **Total Lines of Code**: 50,000+
-- **React Components**: 55+
-- **UI Components**: 49
-- **Dependencies**: 75+
-- **Development Time**: [Your time here]
 
-## 🐛 Known Issues
 
-- Browser list data is 16 months old (run `npx update-browserslist-db@latest` to fix)
-- 4 moderate security vulnerabilities in dev dependencies (non-critical)
 
-## 🔮 Future Enhancements
-
-- [ ] Mobile app version (React Native)
-- [ ] Push notifications for schedule changes
-- [ ] QR code scanning for quick faculty lookup
-- [ ] Integration with university calendar
-- [ ] Multi-language support
-- [ ] Dark/Light mode toggle
-- [ ] Email notifications
-- [ ] Faculty availability status
-
-## 💡 Support
-
-For support, email your.email@example.com or open an issue in the GitHub repository.
 
 ---
 
@@ -308,6 +253,5 @@ For support, email your.email@example.com or open an issue in the GitHub reposit
 
 Made with ❤️ using React and TypeScript
 
-[Report Bug](https://github.com/yourusername/campus-faculty-locator-pro/issues) · [Request Feature](https://github.com/yourusername/campus-faculty-locator-pro/issues)
 
 </div>
